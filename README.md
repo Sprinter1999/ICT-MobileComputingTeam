@@ -1,7 +1,7 @@
 # ICT Mobile Computing Team
 
 ## Teachers
-- [Min Liu](ttp://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496676.html) (Professor)
+- [Min Liu](http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496676.html) (Professor)
 - [Yuwei Wang](https://ict-ywwang.github.io/) (Associate Professor) 
 - To be continued
 
