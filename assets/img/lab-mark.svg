@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">ICT Mobile Computing Team Mark</title>
+  <desc id="desc">A network-inspired academic laboratory symbol.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a5ea8"/>
+      <stop offset="1" stop-color="#003767"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="42" fill="url(#g)"/>
+  <circle cx="68" cy="76" r="18" fill="#fff" opacity=".95"/>
+  <circle cx="172" cy="76" r="18" fill="#fff" opacity=".95"/>
+  <circle cx="120" cy="144" r="24" fill="#fff" opacity=".95"/>
+  <circle cx="72" cy="178" r="14" fill="#dbeafe" opacity=".95"/>
+  <circle cx="176" cy="176" r="14" fill="#dbeafe" opacity=".95"/>
+  <path d="M84 80h72M80 91l27 35M160 91l-27 35M100 156l-18 13M140 156l25 12" stroke="#dbeafe" stroke-width="10" stroke-linecap="round" opacity=".92"/>
+  <text x="120" y="218" text-anchor="middle" font-size="27" font-family="Arial, sans-serif" font-weight="700" fill="#fff">ICT-MC</text>
+</svg>

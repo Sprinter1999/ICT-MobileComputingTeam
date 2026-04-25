@@ -1,341 +1,177 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>中科院计算所移动互联课题组</title>
-  
-  <meta name="author" content="Jon Barron">
+<!doctype html>
+<html lang="zh-CN" data-lang="zh-CN">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <meta name="description" content="中国科学院计算技术研究所移动互联课题组官方网站">
+  <title>中科院计算所移动互联课题组 | ICT Mobile Computing Team</title>
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("ictmc-lang");
+        document.documentElement.setAttribute("data-lang", saved === "en" ? "en" : "zh-CN");
+        document.documentElement.lang = saved === "en" ? "en" : "zh-CN";
+      } catch (e) {
+        document.documentElement.setAttribute("data-lang", "zh-CN");
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
+<body data-page="home">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="top-links">
+        <a href="https://www.ict.ac.cn/" target="_blank" rel="noopener">中国科学院计算技术研究所</a>
+        <a href="https://www.cas.cn/" target="_blank" rel="noopener">中国科学院</a>
+      </div>
+      <button class="lang-toggle" type="button" data-lang-toggle>English</button>
+    </div>
+  </div>
 
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>中科院计算所移动互联课题组</name>
-              </p>
-              <!-- <p>I am a senior staff research scientist at <a href="https://ai.google/research">Google Research</a> in <a href="https://en.wikipedia.org/wiki/One_Market_Plaza">San Francisco</a>, where I work on computer vision and machine learning. -->
-              </p>
-              <p>
-                中国科学院计算技术研究所移动互联课题组由刘敏老师领导，是国内最早从事网络互联与智能协同计算的科研团队之一。课题组牵头制订了多项国际标准、负责多项重大科研项目与企业研发项目，课题组的工作录用于TMC、JSAC、TPDS、TVT、TITS、TOSN、INFOCOM、IPDPS、IJCAI、CIKM等国际高水平期刊与会议，且与国内外高水平研究机构（如清华大学、北京邮电大学等）保持密切合作关系，相关研究成果已在中国联通、联想、华为、中兴等企业的核心网、设备产品以及平台中得到广泛应用。              
-              </p>
-                移动互联课题组每年招收 2~3 名硕士或博士研究生，欢迎有志于从事前沿网络与智能领域创新性研究的同学报考我课题组（招生导师：刘敏老师、王煜炜老师）。
-              <p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="ICT Mobile Computing Team Home">
+        <img class="brand-mark" src="assets/img/lab-mark.svg" alt="ICT Mobile Computing Team logo">
+        <span>
+          <span class="brand-name"><span class="lang-zh">移动互联课题组</span><span class="lang-en">ICT Mobile Computing Team</span></span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false">Menu</button>
+      <nav class="nav" aria-label="Main Navigation">
+        <a data-page="home" href="index.html"><span class="lang-zh">主页</span><span class="lang-en">Home</span></a>
+        <a data-page="teachers" href="teachers.html"><span class="lang-zh">教师</span><span class="lang-en">Teachers</span></a>
+        <a data-page="group" href="group.html"><span class="lang-zh">团队</span><span class="lang-en">Group</span></a>
+        <a data-page="publications" href="publications.html"><span class="lang-zh">研究成果</span><span class="lang-en">Publications</span></a>
+        <a data-page="contact" href="contact.html"><span class="lang-zh">联系我们</span><span class="lang-en">Contact Us</span></a>
+      </nav>
+    </div>
+  </header>
 
-              </p>
-              <!-- <p style="text-align:center">
-                <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp
-                <a href="https://github.com/jonbarron/">Github</a>
-              </p> -->
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/ICT.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ICT.jpg"></a>
-            </td>
-          </tr>
-        </tbody></table>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">ICT · Mobile Computing · Edge Intelligence</div>
+          <h1><span class="lang-zh">面向移动互联、边缘智能与网络协同的前沿研究团队</span><span class="lang-en">A research team for mobile computing, edge intelligence, and networked collaboration</span></h1>
+          <p><span class="lang-zh">课题组长期围绕可信人工智能、智能体、网络互联、移动计算、边缘智能、无人系统协同与网络安全、联邦学习开展研究，形成了“理论模型—系统实现—行业应用”相结合的研究特色。</span><span class="lang-en">The research group has long focused on trustworthy artificial intelligence, intelligent agents, network interconnection, mobile computing, edge intelligence, unmanned system collaboration, cybersecurity, and federated learning, developing a distinctive research profile that integrates theoretical modeling, system implementation, and industrial applications.</span></p>
+          <div class="hero-actions">
+            <a class="button primary" href="publications.html"><span class="lang-zh">查看研究成果</span><span class="lang-en">View Publications</span></a>
+            <a class="button secondary" href="contact.html"><span class="lang-zh">联系课题组</span><span class="lang-en">Contact the Team</span></a>
+          </div>
+        </div>
+        <aside class="hero-panel hero-photo-panel" aria-label="Team photo">
+  <figure class="hero-photo">
+    <img src="assets/img/group-photo.jpg" alt="ICT Mobile Computing Team group photo">
+    <figcaption>
+      <span class="lang-zh">大家庭</span>
+      <span class="lang-en">Family</span>
+    </figcaption>
+  </figure>
+</aside>
+      </div>
+    </section>
 
-        <tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>研究方向</heading>
-            <p>
-              移动互联课题组的研究方向包括：
-              </p><ul>
-                <li>
-                  分布式机器学习、联邦学习、边缘智能、大模型应用
-                </li>
-                <li>
-                  无人系统网络协同、移动计算、工业互联网、无线网络
-                </li>
-                <li>
-                  网络安全
-                </li>
-              </ul>
-              
-            <p></p>
-          </td>
-        </tr>
-      </tbody>
+    <section class="section">
+      <div class="container two-col">
+        <article class="card">
+          <div class="card-body">
+            <div class="section-title">
+              <h2><span class="lang-zh">课题组介绍</span><span class="lang-en">About the Team</span></h2>
+              <p><span class="lang-zh">Research Group Introduction</span><span class="lang-en">Research Group Introduction</span></p>
+            </div>
+            <p><span class="lang-zh">中国科学院计算技术研究所移动互联课题组由刘敏老师领导，是国内较早从事网络互联与智能协同计算研究的团队之一。课题组牵头制订多项国际标准，负责多项重大科研项目与企业研发项目，并与清华大学、北京邮电大学等研究机构保持长期合作。</span><span class="lang-en">Led by Prof. Min Liu, the ICT Mobile Computing Team is among the early Chinese research teams working on network interconnection and intelligent collaborative computing. The team has contributed to international standards, major research projects, and industry collaborations, while maintaining close cooperation with leading universities and institutes.</span></p>
+            <p><span class="lang-zh">课题组成果发表于 TMC、JSAC、TPDS、TVT、TIFS、TITS、TOSN、INFOCOM、IPDPS、IJCAI、AAAI、EMNLP、ACL、CIKM 等国际高水平期刊与会议，相关成果已在中国联通、联想、华为、中兴等企业的核心网络、设备产品和平台中得到应用。</span><span class="lang-en">The team has published in leading journals and conferences such as TMC, JSAC, TPDS, TVT, TIFS, TITS, TOSN, INFOCOM, IPDPS, IJCAI, AAAI, EMNLP, ACL, and CIKM. Its research outcomes have been applied in core networks, device products, and platforms of major industry partners.</span></p>
+          </div>
+        </article>
 
-        <tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>指导教师</heading>
-            <p>
-              移动互联课题组的教师包括：
-              </p><ul>
-                <li>
-                  <a href="https://ict.cas.cn/sourcedb/cn/jssrck/200909/t20090917_2496676.html">刘敏（研究员）</a>
-                </li>
-                <li>
-                  <a href="https://ict-ywwang.github.io/">王煜炜（副研究员）</a>
-                </li>
-                <li>
-                  孙胜（副研究员）
-                </li>
-                <li>
-                  陈亚丽（助理研究员）
-                </li>
-                <li>
-                  徐刚（工程师）
-                </li>
-              </ul>
-              
-            <p></p>
-          </td>
-        </tr>
-      </tbody>      
+        <aside>
+          <div class="card side-block">
+            <div class="card-body">
+              <h3><span class="lang-zh">招生信息</span><span class="lang-en">Admissions</span></h3>
+              <p><span class="lang-zh">课题组每年招收 4-5 名硕士或博士研究生，欢迎有志于前沿网络与智能系统研究的同学报考。有志于保研至本课题组的请在三到九月份联系。</span><span class="lang-en">The team recruits 4-5 master or PhD students each year. Students interested in networked intelligence and mobile computing are welcome to apply. Students interested in pursuing postgraduate recommendation admission to our research group are encouraged to contact us between March and September. </span></p>
+              <a href="contact.html"><span class="lang-zh">了解联系方式 →</span><span class="lang-en">Contact us →</span></a>
+            </div>
+          </div>
+          <div class="card side-block">
+            <div class="card-body">
+              <h3><span class="lang-zh">研究关键词</span><span class="lang-en">Keywords</span></h3>
+              <div class="tag-list">
+                <span class="tag">Network Security</span>
+                <span class="tag">Agent</span>
+                <span class="tag">AI</span>
+                
+                <span class="tag">Edge Intelligence</span>
+                <span class="tag">Mobile Computing</span>
+                <span class="tag">Wireless Networks</span>
+                <span class="tag">Federated Learning</span>
 
-      <tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>在读学生</heading>
-          <p>
-            移动互联课题组的现在读学生包括：
-            </p><ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="lang-zh">新闻快讯</span><span class="lang-en">News</span></h2>
+          <p><span class="lang-zh">不定时更新</span><span class="lang-en">Periodically updated</span></p>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <ul class="news-list">
               <li>
-                在读硕士生：吴吕华、文天、唐启勋、潘曲阳、吴致远、李润含
-              </li>
-              <li>
-                在读博士生：严豫、蒋雪枫、罗俊杰、和敏、薛晶晶、刘庆祥、李叙晶、杨欢、王珊、陈羽丰、田文
-              </li>
-              <li>
-                Alumni：范晓坤、何天流、朱雨晨、张秋平、姜慧、付稚柳、谈昊、张曾琪、庞枭
+                <div class="news-date">04<small>2026</small></div>
+                <div><div class="news-title"><span class="lang-zh">移动互联课题组网站更新</span><span class="lang-en">Team website content updated</span></div><div class="news-desc"><span class="lang-zh">整理课题组介绍、研究方向、指导教师、学生信息与近期录用论文。</span><span class="lang-en">Team introduction, research topics, faculty, students, and recent publications have been reorganized.</span></div></div>
               </li>
             </ul>
-            
-          <p></p>
-        </td>
-      </tr>
-    </tbody>  
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <tbody>
-      <tr>
-      <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>近期已录用研究工作</heading><br>
-          <p>完整发表工作请参考 <a href="https://scholar.google.com/citations?hl=zh-CN&user=o8Sg5l4AAAAJ&view_op=list_works&sortby=pubdate">刘敏老师的学术档案</a> 与 <a href="https://ict-ywwang.github.io/">王煜炜老师的学术主页</a></p> 
-          
-          <!--  -->
+    <section class="section" id="research">
+      
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="lang-zh">研究方向</span><span class="lang-en">Research Areas</span></h2>
+          <p><span class="lang-zh">围绕移动互联与智能协同计算展开</span><span class="lang-en">Mobile interconnection and collaborative intelligence</span></p>
+        </div>
+        <div class="feature-grid">
+            <article class="card feature-card">
+            <div class="feature-icon">01</div>
+            <h3><span class="lang-zh">网络安全与可靠通信</span><span class="lang-en">Network Security and Reliable Communication</span></h3>
+            <p><span class="lang-zh">关注网络安全、可靠传输、研究网络攻防、漏洞挖掘与数据安全防护。</span><span class="lang-en"> Focuses on cybersecurity, reliable transmission, network attack and defense, vulnerability discovery, and data security protection. </span></p>
+          </article>
+          <article class="card feature-card">
+            <div class="feature-icon">02</div>
+            <h3><span class="lang-zh">智能体</span><span class="lang-en">Agent</span></h3>
+            <p><span class="lang-zh">关注可信安全智能体、多智能体协同、大模型智能体</span><span class="lang-en">Focuses on trustworthy and secure agents, multi-agent collaboration, and large language model-based agents. </span></p>
+          </article>
+            <article class="card feature-card">
+            <div class="feature-icon">03</div>
+            <h3><span class="lang-zh">可信大模型</span><span class="lang-en">Trustworthy Large Models</span></h3>
+            <p><span class="lang-zh">关注可信人工智能、可信大语言模型。</span><span class="lang-en">Focuses on trustworthy artificial intelligence and trustworthy large language models.</span></p>
+          </article>
+          <article class="card feature-card">
+            <div class="feature-icon">04</div>
+            <h3><span class="lang-zh">移动计算与网络协同</span><span class="lang-en">Mobile Computing and Network Collaboration</span></h3>
+            <p><span class="lang-zh">关注无人系统网络协同、移动边缘计算、工业互联网、无线网络。</span><span class="lang-en">Focuses on unmanned-system collaboration, mobile edge computing, industrial Internet, wireless networks, and intelligent transportation systems.</span></p>
+          </article>
+          <article class="card feature-card">
+            <div class="feature-icon">05</div>
+            <h3><span class="lang-zh">网络安全与可靠通信</span><span class="lang-en">Network Security and Reliable Communication</span></h3>
+            <p><span class="lang-zh">关注网络安全、可靠传输、资源受限网络中的能效通信与数据采集机制。</span><span class="lang-en">Focuses on network security, reliable transmission, energy-efficient communication, and data collection in resource-constrained networks.</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+ <footer class="footer"><div class="footer-inner"><div><h3><span class="lang-zh">中国科学院计算技术研究所移动互联课题组</span><span class="lang-en">ICT Mobile Computing Team</span></h3><p><span class="lang-zh">面向网络安全、可信大模型、智能体、移动互联、边缘智能、联邦学习与网络协同计算的基础理论、关键技术与应用系统研究。</span><span class="lang-en">Research on cybersecurity
+ trustworthy artificial intelligence, intelligent agents, mobile computing, edge intelligence, federated learning, and networked collaborative systems.</span></p></div><div><h3><span class="lang-zh">友情链接</span><span class="lang-en">Links</span></h3><div class="footer-links"><a href="https://www.ict.ac.cn/" target="_blank" rel="noopener">ICT</a><a href="https://www.cas.cn/" target="_blank" rel="noopener">CAS</a><a class="mail-icon-link" href="mailto:liumin@ict.ac.cn" aria-label="发送邮件 / Send email" title="发送邮件 / Send email"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.75 5.75h16.5v12.5H3.75z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4.25 6.25 7.75 6.2 7.75-6.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div></div><div class="container copyright">© ICT Mobile Computing Team. Last updated: 2026.</div></footer>
 
-          <br>
-          <papertitle>Reliable and Energy-Efficient Communications in Mobile Robotic Networks by Collaborative Beamforming</papertitle>
-          <br>
-          Min He, Yali Chen, Min Liu, Xiaokun Fan, and Yuchen Zhu
-          <br>
-          <em>ACM Transactions on Sensor Networks (ACM TOSN) </em>
-          <br>
-
-          <br>
-          <papertitle>Tackling Noisy Clients in Federated Learning with End-to-end Label Correction</papertitle>
-          <br>
-          Xuefeng Jiang, Sheng Sun, Jia Li, Jingjing Xue, Runhan Li, Zhiyuan Wu, Gang Xu, Yuwei Wang, and Min Liu
-          <br>
-          <em>ACM International Conference on Information and Knowledge Management (ACM CIKM'24) </em>
-          <br>
-
-
-          <br>
-          <papertitle>Online spatio-temporal correlation-based federated learning for traffic flow forecasting</papertitle>
-          <br>
-          Qingxiang Liu, Sheng Sun, Min Liu, Yuwei Wang, and Bo Gao
-          <br>
-          <em>IEEE Transactions on Intelligent Transportation Systems (IEEE TITS) </em>
-          <br>
-
-
-          <br>
-          <papertitle>Staleness-Controlled Asynchronous Federated Learning: Accuracy and Efficiency Tradeoff</papertitle>
-          <br>
-          Sheng Sun, Zengqi Zhang, Quyang Pan, Min Liu, Yuwei Wang, Tianliu He, Yali Chen, and Zhiyuan Wu
-          <br>
-          <em>IEEE TMC</em>
-          <br>
-
-          <!--  -->
-          
-          <br>
-          <papertitle>Adaptive bitrate video caching in UAV-Assisted MEC networks based on distributionally robust optimization</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/10216332/">[Paper]</a>
-          <br>
-          Yali Chen, Min Liu, Bo Ai, Yuwei Wang, Sheng Sun
-          <br>
-          <em>IEEE TMC</em>
-          <br>
-
-          <!--  -->
-          
-          <br>
-          <papertitle>UAV-Enabled Federated Learning in Dynamic Environments: Efficiency and Security Trade-off</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/10375744/">[Paper]</a> 
-          <br>
-          Xiaokun Fan, Yali Chen, Min Liu, Sheng Sun, Zhuotao Liu, Ke Xu, Zhongcheng Li
-          <br>
-          <em>IEEE TVT</em>
-          <br>
-
-          <br>
-          <papertitle>Collaborative non-chain DNN inference with multi-device based on layer parallel</papertitle> <a href="https://www.sciencedirect.com/science/article/pii/S2352864823001645">[Paper]</a> 
-          <br>
-          Qiuping Zhang, Sheng Sun, Junjie Luo, Min Liu, Zhongcheng Li, Huan Yang, Yuwei Wang
-          <br>
-          <em>Digital Communications and Networks (DCN)</em>
-          <br>
-
-          <br>
-          <papertitle>FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence</papertitle> <a href="https://ieeexplore.ieee.org/document/10420495">[Paper]</a> 
-          <br>
-          Zhiyuan Wu, Sheng Sun, Yuwei Wang*, Min Liu, Ke Xu, Wen Wang, Xuefeng Jiang, Bo Gao, and Jinda Lu
-          <br>
-          <em>IEEE TMC</em>
-          <br>
-
-          <br>
-            <papertitle>FedICT: Federated Multi-task Distillation for Multi-access Edge Computing</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/10163770">[Paper]</a> 
-            <br>
-            Zhiyuan Wu, Sheng Sun, Yuwei Wang, Min Liu, Quyang Pan, Xuefeng Jiang, Bo Gao
-            <br>
-            <em>IEEE TPDS</em>
-            <br>
-          
-          <br>
-          <papertitle>Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration</papertitle> <a href="https://arxiv.org/abs/2312.11489">[Paper]</a> 
-          <br>
-          Zhiyuan Wu, Sheng Sun, Yuwei Wang*, Min Liu, Bo Gao, Quyang Pan, Tianliu He, and Xuefeng Jiang
-          <br>
-          <em>IEEE/INFOCOM'24</em>
-          <br>
-
-
-          <br>
-            <papertitle>MJOA-MU: End-to-edge collaborative computation for DNN inference based on model uploading</papertitle> <a href="https://www.sciencedirect.com/science/article/pii/S1389128623002463">[Paper]</a> 
-            <br>
-            Huan Yang, Sheng Sun, Min Liu, Qiuping Zhang, Yuwei Wang
-            <br>
-            <em>Computer Networks</em>
-            <br>
-
-          <br>
-            <papertitle>FedTrip: A Resource-Efficient Federated Learning Method with Triplet Regularization</papertitle> <a href="https://arxiv.org/pdf/2304.05824">[Paper]</a>
-          <br>
-          Xujing Li, Min Liu, Sheng Sun, Yuwei Wang, Hui Jiang, Xuefeng Jiang
-          <br>
-          <em>IEEE/IPDPS'23</em>
-          <br>
-
-          <br>
-          <papertitle>FedBIAD: Communication-Efficient and Accuracy-Guaranteed Federated Learning with Bayesian Inference-Based Adaptive Dropout</papertitle>
-        <br>
-        Jingjing Xue, Min Liu, Sheng Sun, Yuwei Wang, Hui Jiang, Xuefeng Jiang
-        <br>
-        <em>IEEE/IPDPS'23</em>
-        <br>
-
-          <br>
-            <papertitle>Vehicle-cluster-based opportunistic relays for data collection in intelligent transportation systems</papertitle> <a href="https://www.sciencedirect.com/science/article/pii/S1389128622005436">[Paper]</a> 
-          <br>
-          Sheng Sun, Zengqi Zhang, Quyang Pan, Min Liu, Zhongcheng Li
-          <br>
-          <em>Computer Networks</em>
-          <br>
-
-          <br>
-          <papertitle>RIS-assisted UAV for fresh data collection in 3d urban environments: A deep reinforcement learning approach</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/9870566/">[Paper]</a> 
-        <br>
-        Xiaokun Fan, Min Liu, Yali Chen, Sheng Sun, Zhongcheng Li, Xiaobing Guo
-        <br>
-        <em>IEEE Transactions on Vehicular Technology</em>
-        <br>
-
-        <br>
-        <papertitle>Towards federated learning against noisy labels via local self-regularization</papertitle> <a href="https://dl.acm.org/doi/abs/10.1145/3511808.3557475">[Paper]</a> 
-      <br>
-      Xuefeng Jiang, Sheng Sun, Yuwei Wang, Min Liu
-      <br>
-      <em>ACM/CIKM'22</em>
-      <br>
-
-      <br>
-      <papertitle>Network Lifetime Optimization in Multi-hop Industrial Cognitive Radio Sensor Networks</papertitle> <a href="https://dl.acm.org/doi/abs/10.1145/3549938">[Paper]</a> 
-    <br>
-    Zengqi Zhang, Sheng Sun, Min Liu, Zhongcheng Li
-    <br>
-    <em>ACM Transactions on Sensor Networks</em>
-    <br>
-
-    <br>
-    <papertitle>FedSyL: Computation-efficient federated synergy learning on heterogeneous iot devices</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/9812907/">[Paper]</a> 
-  <br>
-  Hui Jiang, Min Liu, Sheng Sun, Yuwei Wang, Xiaobing Guo
-  <br>
-  <em>IEEE/ACM IWQoS'22</em>
-  <br>
-  
-  <br>
-  <papertitle>Geographic position based hopless opportunistic routing for UAV networks</papertitle> <a href="https://www.sciencedirect.com/science/article/pii/S1570870521001050">[Paper]</a> 
-<br>
-Xiao Pang, Min Liu, Zhongcheng Li, Bo Gao, Xiaobing Guo
-<br>
-<em>Ad Hoc Networks'21</em>
-<br>
-
-<br>
-<papertitle>面向多边缘设备协作的任务卸载和服务缓存在线联合优化机制</papertitle> <a href="https://scholar.google.com/scholar?cluster=14433816943613264911&hl=en&oi=scholarr">[Paper]</a> 
-<br>
-张秋平， 孙胜， 刘敏， 李忠诚， 张曾琪
-<br>
-<em>计算机研究与发展</em>
-<br>
-
-<br>
-<papertitle>Customized federated learning for accelerated edge computing with heterogeneous task targets</papertitle> <a href="https://www.sciencedirect.com/science/article/pii/S1389128620312135">[Paper]</a> 
-<br>
-Hui Jiang, Min Liu, Bo Yang, Qingxiang Liu, Jizhong Li, Xiaobing Guo
-<br>
-<em>Computer Networks</em>
-<br>
-
-<br>
-<papertitle>Pharos: A rapid neighbor discovery algorithm for power-restricted wireless sensor networks</papertitle> <a href="https://ieeexplore.ieee.org/abstract/document/8824821/">[Paper]</a> 
-<br>
-Yuchen Zhu, Bo Yang, Min Liu, Zhongcheng Li
-<br>
-<em>SECON'19</em>
-<br>
-
-
-
-          <!--   -->
-  
-          </td>
-      </tr>
-      <tbody>
-        <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-                <p font-size:small;="">
-                    <br>
-                    <br>
-                    </p><div style="float:left;">
-                    Updated at June 2024
-                    </div>
-
-                    <br>
-                    <br>        
-                <p></p>                           
-            </td>
-        </tr>
-    </tbody>
-
-      </td>
-    </tr>
-  </table>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
